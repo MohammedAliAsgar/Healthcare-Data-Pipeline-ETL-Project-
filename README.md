@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Healthcare Claims & EHR Data Integration Pipeline (PySpark)
 
 This project demonstrates an end-to-end, HIPAA-aware integration pipeline that ingests **claims** + **EHR** data,
@@ -54,3 +55,7 @@ See `sql/` for warehouse DDL templates.
 This repo is a **demo**. Do not use real PHI. The masking step hashes PHI-like fields and drops raw identifiers.
 In production, you would use KMS-managed encryption, IAM policies, audit logs, and stricter controls.
 
+=======
+# Healthcare-Data-Pipeline-ETL-Project-
+End-to-end healthcare ETL pipeline for processing claims and EHR data with data cleaning, PHI masking, and analytical modeling.
+>>>>>>> 90f8b3b3378038f90a6167fc7553d230f0ef83fd
