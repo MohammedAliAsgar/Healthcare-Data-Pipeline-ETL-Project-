@@ -1,0 +1,31 @@
+{
+  "dq_rules": {
+    "claims": {
+      "not_null": [
+        "claim_id",
+        "member_id",
+        "provider_id",
+        "service_date"
+      ],
+      "non_negative": [
+        "paid_amount",
+        "allowed_amount"
+      ]
+    },
+    "ehr": {
+      "not_null": [
+        "patient_id",
+        "encounter_id",
+        "encounter_date"
+      ]
+    }
+  },
+  "standardization": {
+    "uppercase_cols": [
+      "icd10_code",
+      "cpt_code",
+      "diagnosis_code",
+      "procedure_code"
+    ]
+  }
+}
